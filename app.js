@@ -1,3 +1,5 @@
+// @format
+
 // Select a form
 const sizePicker = document.getElementById('sizePicker');
 
@@ -27,7 +29,6 @@ sizePicker.addEventListener('submit', function(e) {
 });
 
 function makeGrid(width, height) {
-
   // Clear the canvas
   pixelCanvas.innerHTML = '';
 
